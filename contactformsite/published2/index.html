@@ -1,161 +1,21 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!DOCTYPE html><html><head>    
     <meta charset="UTF-8">
     <!-- generator meta tag -->
     <!-- leave this for stats and Silex version check -->
     <meta name="generator" content="Silex v2.2.7">
     <!-- End of generator meta tag -->
-    <script type="text/javascript" src="//editor.silex.me/static/2.7/jquery.js" data-silex-static=""></script>
-    <script type="text/javascript" src="//editor.silex.me/static/2.7/jquery-ui.js" data-silex-static=""></script>
-    <script type="text/javascript" src="//editor.silex.me/static/2.7/pageable.js" data-silex-static=""></script>
-    <script type="text/javascript" src="//editor.silex.me/static/2.7/front-end.js" data-silex-static=""></script>
-    <link rel="stylesheet" href="//editor.silex.me/static/2.7/normalize.css" data-silex-static="">
-    <link rel="stylesheet" href="//editor.silex.me/static/2.7/front-end.css" data-silex-static="">
+    <script type="text/javascript" src="js/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="js/jquery-ui.js" data-silex-static=""></script>
+    <script type="text/javascript" src="js/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="js/front-end.js" data-silex-static=""></script>
+    <link rel="stylesheet" href="css/normalize.css" data-silex-static="">
+    <link rel="stylesheet" href="css/front-end.css" data-silex-static="">
 
-    <style type="text/css" class="silex-style"></style>
-    <script type="text/javascript" class="silex-script"></script>
-    <style class="silex-inline-styles" type="text/css">
-        .body-initial {
-            background-color: rgba(255, 255, 255, 1);
-        }
-        
-        .silex-id-1478366444112-1 {
-            top: 100px;
-            left: NaNpx;
-            background-color: transparent;
-            min-width: 960px;
-        }
-        
-        .silex-id-1478366444112-0 {
-            min-height: 305px;
-            background-color: transparent;
-            background-image: url('../../assets/coverpatreon.jpg');
-            background-position: center center;
-            background-size: cover;
-            top: 15px;
-            left: 324px;
-            width: 960px;
-        }
-        
-        .silex-id-1474394621033-3 {
-            top: 5px;
-            left: 0px;
-        }
-        
-        .silex-id-1474394621032-2 {
-            min-height: 600px;
-            background-color: transparent;
-        }
-        
-        .silex-id-1516981286874-1 {
-            width: 533px;
-            min-height: 139px;
-            top: 389px;
-            left: 424px;
-        }
-        
-        .silex-id-1516981305002-3 {
-            width: 208px;
-            min-height: 243px;
-            top: 2px;
-            left: 749px;
-        }
-        
-        .silex-id-1516988085924-0 {
-            width: 504px;
-            min-height: 345px;
-            top: 28px;
-            left: 2px;
-        }
-        
-        .silex-id-1516988234692-1 {
-            width: 100px;
-            min-height: 100px;
-            top: 1px;
-            left: 3px;
-        }
-        
-        .silex-id-1516981312994-4 {
-            width: 240px;
-            min-height: 240px;
-            top: 3px;
-            left: 509px;
-        }
-        
-        .silex-id-1516990607004-4 {
-            width: 400px;
-            height: 400px;
-            background-color: transparent;
-            top: 22px;
-            left: 5px;
-        }
-        
-        .silex-id-1516988308373-3 {
-            width: 100px;
-            min-height: 40px;
-            top: 7px;
-            left: 213px;
-        }
-        
-        .silex-id-1516988399884-4 {
-            width: 100px;
-            min-height: 42px;
-            top: 5px;
-            left: 220px;
-        }
-        
-        .silex-id-1516990501220-0 {
-            width: 100px;
-            min-height: 40px;
-            top: 53px;
-            left: 219px;
-        }
-        
-        .silex-id-1516990515759-1 {
-            width: 100px;
-            min-height: 42px;
-            top: 3px;
-            left: 220px;
-        }
-        
-        .silex-id-1516990524708-2 {
-            width: 100px;
-            min-height: 42px;
-            top: 52px;
-            left: 213px;
-        }
-        
-        .silex-id-1516990568843-3 {
-            width: 100px;
-            min-height: 42px;
-            top: 53px;
-            left: 218px;
-        }
-        
-        .silex-id-1478366450713-3 {
-            top: 100px;
-            left: NaNpx;
-            background-color: transparent;
-        }
-        
-        .silex-id-1478366450713-2 {
-            min-height: 100px;
-            background-color: transparent;
-        }
-        
-        .silex-id-1442914737143-3 {
-            min-height: 53px;
-            width: 349px;
-            top: 29px;
-            left: 305px;
-        }
-    </style>
-    <title></title>
-    <script type="text/javascript" class="silex-json-styles">
-        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"top":"5px","left":"0px"},"silex-id-1474394621032-2":{"min-height":"600px","background-color":"transparent"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1442914737143-3":{"min-height":"53px","width":"349px","top":"29px","left":"305px"},"silex-id-1478366444112-0":{"min-height":"305px","background-color":"transparent","background-image":"url('../../assets/coverpatreon.jpg')","background-position":"center center","background-size":"cover","top":"15px","left":"324px","width":"960px"},"silex-id-1478366444112-1":{"top":"100px","left":"NaNpx","background-color":"transparent","min-width":"960px"},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent"},"silex-id-1478366450713-3":{"top":"100px","left":"NaNpx","background-color":"transparent"},"silex-id-1516981286874-1":{"width":"533px","min-height":"139px","top":"389px","left":"424px"},"silex-id-1516981305002-3":{"width":"208px","min-height":"243px","top":"2px","left":"749px"},"silex-id-1516981312994-4":{"width":"240px","min-height":"240px","top":"3px","left":"509px"},"silex-id-1516988085924-0":{"width":"504px","min-height":"345px","top":"28px","left":"2px"},"silex-id-1516988234692-1":{"width":"100px","min-height":"100px","top":"1px","left":"3px"},"silex-id-1516988308373-3":{"width":"100px","min-height":"40px","top":"7px","left":"213px"},"silex-id-1516988399884-4":{"width":"100px","min-height":"42px","top":"5px","left":"220px"},"silex-id-1516990501220-0":{"width":"100px","min-height":"40px","top":"53px","left":"219px"},"silex-id-1516990515759-1":{"width":"100px","min-height":"42px","top":"3px","left":"220px"},"silex-id-1516990524708-2":{"width":"100px","min-height":"42px","top":"52px","left":"213px"},"silex-id-1516990568843-3":{"width":"100px","min-height":"42px","top":"53px","left":"218px"},"silex-id-1516990607004-4":{"width":"400px","height":"400px","background-color":"transparent","top":"22px","left":"5px"}},"mobile":{},"componentData":{"silex-id-1516990607004-4":{"name":"form1","templateName":"form","sendTo":"adultjunkiepatreon@gmail.com"}}}]
-    </script>
+    
+    
+    
+    <title>Episode I am in heaven</title>
+    
 
 
 
@@ -179,15 +39,16 @@
             display: inherit;
         }
     </style>
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="adult VN game">
+    <meta name="og:description" content="adult VN game">
     <!-- Silex HEAD tag do not remove -->
     <!-- End of Silex HEAD tag do not remove -->
-</head>
-
-<body data-silex-id="body-initial" class="body-initial silex-runtime" data-silex-type="container">
+    <link href="css/styles.css" rel="stylesheet">    <script src="js/script.js" type="text/javascript"></script></head><body class="body-initial silex-runtime silex-published">
     <div class="silex-pages">
         <div data-silex-type="image" class="editable-style silex-id-hamburger-menu image-element menu-button prevent-draggable prevent-resizable" data-silex-id="silex-id-hamburger-menu">
-            <img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
-                class="silex-element-content">
+            <img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII=" class="silex-element-content">
         </div>
 
         <a id="page-home" data-silex-type="page" class="page-element page-link-active">Home</a><a id="page-about" data-silex-type="page" class="page-element">About</a><a id="page-contact" data-silex-type="page" class="page-element">CONTACT</a></div>
@@ -206,8 +67,8 @@
     <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1474394621033-3 section-element" data-silex-id="silex-id-1474394621033-3" style="">
         <div data-silex-type="container" class="editable-style silex-element-content silex-id-1474394621032-2 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1474394621032-2">
 
-            <div data-silex-type="image" class="editable-style silex-id-1516981286874-1 image-element" data-silex-id="silex-id-1516981286874-1" data-silex-href="//patreon.com/adultjunkie"><img src="../../assets/PatreonLink2.png" class="silex-element-content"></div>
-            <div data-silex-type="image" class="editable-style silex-id-1516981305002-3 image-element" data-silex-id="silex-id-1516981305002-3"><img src="../../assets/profilepatreon.png" class="silex-element-content"></div>
+            <a target="_blank" data-silex-type="image" class="editable-style silex-id-1516981286874-1 image-element" data-silex-id="silex-id-1516981286874-1" href="//patreon.com/adultjunkie"><img src="assets/PatreonLink2.png" class="silex-element-content"></a>
+            <div data-silex-type="image" class="editable-style silex-id-1516981305002-3 image-element" data-silex-id="silex-id-1516981305002-3"><img src="assets/profilepatreon.png" class="silex-element-content"></div>
 
             <div data-silex-type="text" class="editable-style silex-id-1516988085924-0 text-element page-about paged-element" data-silex-id="silex-id-1516988085924-0">
                 <div class="silex-element-content normal">
@@ -263,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div data-silex-type="image" class="editable-style silex-id-1516981312994-4 image-element" data-silex-id="silex-id-1516981312994-4"><img src="../../assets/otLik_0h_400x400.jpg" class="silex-element-content"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1516981312994-4 image-element" data-silex-id="silex-id-1516981312994-4"><img src="assets/otLik_0h_400x400.jpg" class="silex-element-content"></div>
             <div data-silex-type="html" class="editable-style silex-id-1516990607004-4 html-element silex-component silex-component-form silex-use-height-not-minheight page-contact paged-element" data-silex-id="silex-id-1516990607004-4">
                 <div class="silex-element-content">
                     <form id="id_1516990625108_405" action="https://formspree.io/adultjunkiepatreon@gmail.com" method="POST">
@@ -349,46 +210,46 @@
                 </div>
             </div>
         </div>
-        <div data-silex-type="text" class="editable-style silex-id-1516988308373-3 text-element page-home paged-element" data-silex-id="silex-id-1516988308373-3" data-silex-href="#!page-about">
+        <a data-silex-type="text" class="editable-style silex-id-1516988308373-3 text-element page-home paged-element" data-silex-id="silex-id-1516988308373-3" href="#!page-about">
             <div class="silex-element-content normal">
                 <div><br></div>
                 <div><b><font color="#0000ff">ABOUT</font></b></div>
             </div>
-        </div>
-        <div data-silex-type="text" class="editable-style silex-id-1516988399884-4 text-element page-about paged-element page-link-active" data-silex-id="silex-id-1516988399884-4" data-silex-href="#!page-home">
+        </a>
+        <a data-silex-type="text" class="editable-style silex-id-1516988399884-4 text-element page-about paged-element page-link-active" data-silex-id="silex-id-1516988399884-4" href="#!page-home">
             <div class="silex-element-content normal">
                 <div><br></div>
                 <div><b><font color="#0000ff">HOME</font></b></div>
             </div>
-        </div>
-        <div data-silex-type="text" class="editable-style text-element silex-id-1516990501220-0 paged-element page-contact" data-silex-id="silex-id-1516990501220-0" data-silex-href="#!page-about">
+        </a>
+        <a data-silex-type="text" class="editable-style text-element silex-id-1516990501220-0 paged-element page-contact" data-silex-id="silex-id-1516990501220-0" href="#!page-about">
             <div class="silex-element-content normal">
                 <div><br></div>
                 <div><b><font color="#0000ff">ABOUT</font></b></div>
             </div>
-        </div>
-        <div data-silex-type="text" class="editable-style text-element silex-id-1516990515759-1 paged-element page-contact page-link-active" data-silex-id="silex-id-1516990515759-1" data-silex-href="#!page-home">
+        </a>
+        <a data-silex-type="text" class="editable-style text-element silex-id-1516990515759-1 paged-element page-contact page-link-active" data-silex-id="silex-id-1516990515759-1" href="#!page-home">
             <div class="silex-element-content normal">
                 <div><br></div>
                 <div><b><font color="#0000ff">HOME</font></b></div>
             </div>
-        </div>
-        <div data-silex-type="text" class="editable-style text-element silex-id-1516990524708-2 page-home paged-element" data-silex-id="silex-id-1516990524708-2" data-silex-href="#!page-contact">
+        </a>
+        <a data-silex-type="text" class="editable-style text-element silex-id-1516990524708-2 page-home paged-element" data-silex-id="silex-id-1516990524708-2" href="#!page-contact">
             <div class="silex-element-content normal">
                 <div><br></div>
                 <div>
                     <font color="#0000ff"><b>CONTACT</b></font>
                 </div>
             </div>
-        </div>
-        <div data-silex-type="text" class="editable-style text-element silex-id-1516990568843-3 page-about paged-element" data-silex-id="silex-id-1516990568843-3" data-silex-href="#!page-contact">
+        </a>
+        <a data-silex-type="text" class="editable-style text-element silex-id-1516990568843-3 page-about paged-element" data-silex-id="silex-id-1516990568843-3" href="#!page-contact">
             <div class="silex-element-content normal">
                 <div><br></div>
                 <div>
                     <font color="#0000ff"><b>CONTACT</b></font>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
     <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1478366450713-3 section-element" data-silex-id="silex-id-1478366450713-3" style="">
         <div data-silex-type="container" class="editable-style silex-element-content silex-id-1478366450713-2 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1478366450713-2">
@@ -422,6 +283,6 @@
 
 
 
-</body>
 
-</html>
+
+</body></html>
