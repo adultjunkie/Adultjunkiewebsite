@@ -1,264 +1,1347 @@
 <!DOCTYPE html>
+<html>
 
-<html lang="en" itemscope itemtype="http://schema.org/WebPage"> <!--Change the lang property to your web's language-->
+<head>
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.7">
+    <!-- End of generator meta tag -->
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/jquery-ui.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/front-end.js" data-silex-static=""></script>
+    <link rel="stylesheet" href="//editor.silex.me/static/2.7/normalize.css" data-silex-static="">
+    <link rel="stylesheet" href="//editor.silex.me/static/2.7/front-end.css" data-silex-static="">
 
-<head prefix="og: http://ogp.me/ns#">
+    <style type="text/css" class="silex-style"></style>
+    <script type="text/javascript" class="silex-script"></script>
+    <style class="silex-inline-styles" type="text/css">
+        .body-initial {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        
+        .silex-id-1478366444112-1 {
+            top: 100px;
+            left: NaNpx;
+            background-color: transparent;
+            min-width: 960px;
+        }
+        
+        .silex-id-1478366444112-0 {
+            min-height: 305px;
+            background-color: transparent;
+            background-image: url('assets/coverpatreon.jpg');
+            background-position: center center;
+            background-size: cover;
+            top: 15px;
+            left: 324px;
+            width: 960px;
+        }
+        
+        .silex-id-1474394621033-3 {
+            top: 345px;
+            left: 5px;
+            min-width: 960px;
+        }
+        
+        .silex-id-1474394621032-2 {
+            min-height: 2166px;
+            background-color: transparent;
+            top: 15px;
+            left: 324px;
+            width: 960px;
+        }
+        
+        .silex-id-1516981286874-1 {
+            width: 533px;
+            min-height: 139px;
+            top: 389px;
+            left: 424px;
+        }
+        
+        .silex-id-1516981305002-3 {
+            width: 208px;
+            min-height: 243px;
+            top: 2px;
+            left: 749px;
+        }
+        
+        .silex-id-1516988308373-3 {
+            width: 100px;
+            min-height: 36px;
+            top: -8px;
+            left: 5px;
+        }
+        
+        .silex-id-1516990524708-2 {
+            width: 100px;
+            min-height: 42px;
+            top: -9px;
+            left: 110px;
+        }
+        
+        .silex-id-1516988399884-4 {
+            width: 100px;
+            min-height: 42px;
+            top: -14px;
+            left: 2px;
+        }
+        
+        .silex-id-1516988085924-0 {
+            width: 504px;
+            min-height: 345px;
+            top: 57px;
+            left: 0px;
+        }
+        
+        .silex-id-1516990568843-3 {
+            width: 100px;
+            min-height: 42px;
+            top: -13px;
+            left: 107px;
+        }
+        
+        .silex-id-1516990607004-4 {
+            width: 400px;
+            height: 400px;
+            background-color: transparent;
+            top: 67px;
+            left: 4px;
+        }
+        
+        .silex-id-1516990515759-1 {
+            width: 100px;
+            min-height: 42px;
+            top: -8px;
+            left: 7px;
+        }
+        
+        .silex-id-1516990501220-0 {
+            width: 100px;
+            min-height: 40px;
+            top: -8px;
+            left: 109px;
+        }
+        
+        .silex-id-1516981312994-4 {
+            width: 240px;
+            min-height: 240px;
+            top: 3px;
+            left: 509px;
+        }
+        
+        .silex-id-1517079965928-1 {
+            width: 493px;
+            min-height: 555px;
+            top: 32px;
+            left: 4px;
+        }
+        
+        .silex-id-1517083233958-1 {
+            width: 103px;
+            background-color: rgb(255, 255, 255);
+            min-height: 22px;
+            top: 547px;
+            left: 854px;
+        }
+        
+        .silex-id-1518018072698-1 {
+            width: 100px;
+            min-height: 42px;
+            top: -10px;
+            left: 4px;
+        }
+        
+        .silex-id-1518018524618-2 {
+            height: 396px;
+            width: 808px;
+            background-color: transparent;
+            top: 33px;
+            left: 131px;
+        }
+        
+        .silex-id-1518018634747-3 {
+            width: 896px;
+            min-height: 136px;
+            top: 456px;
+            left: 9px;
+        }
+        
+        .silex-id-1518019325557-4 {
+            width: 100px;
+            min-height: 42px;
+            top: -8px;
+            left: 217px;
+        }
+        
+        .silex-id-1518019361514-5 {
+            width: 100px;
+            min-height: 42px;
+            top: -11px;
+            left: 214px;
+        }
+        
+        .silex-id-1518019373614-6 {
+            width: 100px;
+            min-height: 42px;
+            top: -7px;
+            left: 211px;
+        }
+        
+        .silex-id-1518020142826-0 {
+            min-height: 100px;
+            width: 400px;
+            background-color: transparent;
+            top: 874px;
+            left: 5px;
+        }
+        
+        .silex-id-1518138025472-0 {
+            width: 100px;
+            background-color: rgb(255, 255, 255);
+            min-height: 100px;
+            top: 17px;
+            left: 24px;
+        }
+        
+        .silex-id-1518138329559-1 {
+            width: 174px;
+            min-height: 24px;
+            top: 5px;
+            left: 108px;
+        }
+        
+        .silex-id-1478366450713-3 {
+            top: 100px;
+            left: NaNpx;
+            background-color: transparent;
+            min-width: 960px;
+        }
+        
+        .silex-id-1478366450713-2 {
+            min-height: 94px;
+            background-color: transparent;
+            top: 19px;
+            left: 324px;
+            width: 960px;
+        }
+    </style>
+    <title>Episode I am in heaven</title>
+    <script type="text/javascript" class="silex-json-styles">
+        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"top":"345px","left":"5px","min-width":"960px"},"silex-id-1474394621032-2":{"min-height":"2166px","background-color":"transparent","top":"15px","left":"324px","width":"960px"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1478366444112-0":{"min-height":"305px","background-color":"transparent","background-image":"url('assets/coverpatreon.jpg')","background-position":"center center","background-size":"cover","top":"15px","left":"324px","width":"960px"},"silex-id-1478366444112-1":{"top":"100px","left":"NaNpx","background-color":"transparent","min-width":"960px"},"silex-id-1478366450713-2":{"min-height":"94px","background-color":"transparent","top":"19px","left":"324px","width":"960px"},"silex-id-1478366450713-3":{"top":"100px","left":"NaNpx","background-color":"transparent","min-width":"960px"},"silex-id-1516981286874-1":{"width":"533px","min-height":"139px","top":"389px","left":"424px"},"silex-id-1516981305002-3":{"width":"208px","min-height":"243px","top":"2px","left":"749px"},"silex-id-1516981312994-4":{"width":"240px","min-height":"240px","top":"3px","left":"509px"},"silex-id-1516988085924-0":{"width":"504px","min-height":"345px","top":"57px","left":"0px"},"silex-id-1516988308373-3":{"width":"100px","min-height":"36px","top":"-8px","left":"5px"},"silex-id-1516988399884-4":{"width":"100px","min-height":"42px","top":"-14px","left":"2px"},"silex-id-1516990501220-0":{"width":"100px","min-height":"40px","top":"-8px","left":"109px"},"silex-id-1516990515759-1":{"width":"100px","min-height":"42px","top":"-8px","left":"7px"},"silex-id-1516990524708-2":{"width":"100px","min-height":"42px","top":"-9px","left":"110px"},"silex-id-1516990568843-3":{"width":"100px","min-height":"42px","top":"-13px","left":"107px"},"silex-id-1516990607004-4":{"width":"400px","height":"400px","background-color":"transparent","top":"67px","left":"4px"},"silex-id-1517079965928-1":{"width":"493px","min-height":"555px","top":"32px","left":"4px"},"silex-id-1517083233958-1":{"width":"103px","background-color":"rgb(255, 255, 255)","min-height":"22px","top":"547px","left":"854px"},"silex-id-1518018072698-1":{"width":"100px","min-height":"42px","top":"-10px","left":"4px"},"silex-id-1518018524618-2":{"height":"396px","width":"808px","background-color":"transparent","top":"33px","left":"131px"},"silex-id-1518018634747-3":{"width":"896px","min-height":"136px","top":"456px","left":"9px"},"silex-id-1518019325557-4":{"width":"100px","min-height":"42px","top":"-8px","left":"217px"},"silex-id-1518019361514-5":{"width":"100px","min-height":"42px","top":"-11px","left":"214px"},"silex-id-1518019373614-6":{"width":"100px","min-height":"42px","top":"-7px","left":"211px"},"silex-id-1518020142826-0":{"min-height":"100px","width":"400px","background-color":"transparent","top":"874px","left":"5px"},"silex-id-1518138025472-0":{"width":"100px","background-color":"rgb(255, 255, 255)","min-height":"100px","top":"17px","left":"24px"},"silex-id-1518138329559-1":{"width":"174px","min-height":"24px","top":"5px","left":"108px"}},"mobile":{},"componentData":{"silex-id-1516990607004-4":{"name":"form1","templateName":"form","sendTo":"adultjunkiepatreon@gmail.com"},"silex-id-1518018524618-2":{"name":"slideshow1","templateName":"slideshow","slides":[{"image":[{"url":"/api/1.0/github/exec/get///Adultjunkiewebsite/gh-pages/assets/gf03.jpg","name":"gf03.jpg","size":129059}]},{"image":[{"url":"/api/1.0/github/exec/get///Adultjunkiewebsite/gh-pages/assets/bossjob00.jpg","name":"bossjob00.jpg","size":190574}]},{"image":[{"url":"/api/1.0/github/exec/get///Adultjunkiewebsite/gh-pages/assets/mmass02.jpg","name":"mmass02.jpg","size":216801}]},{"image":[{"url":"/api/1.0/github/exec/get///Adultjunkiewebsite/gh-pages/assets/sisroom03.jpg","name":"sisroom03.jpg","size":191297}]},{"image":[{"url":"/api/1.0/github/exec/get///Adultjunkiewebsite/gh-pages/assets/sisroom35c.jpg","name":"sisroom35c.jpg","size":155676}]}],"autoplay":true},"silex-id-1518020142826-0":{"name":"skill-bars1","templateName":"skill-bars","bars":[{"label":"Rendering","percentage":"40","background":"#79e1fb"},{"label":"Story","percentage":"10","background":"#72defa"},{"label":"Coding","percentage":"1"}]}}}]
+    </script>
 
-	<title></title> <!--Up to 60-70 Characters. Optimal Format: Primary Keyword - Secondary Keyword | Brand Name-->
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-	<meta name="description" content=""> <!--Page description. No longer than 155 characters.-->
-	<meta name="keywords" content="">
-	<meta name="author" content=""> <!--Name of the author.-->
 
-	<!--Facebook Meta Tags-->
-	<meta property="og:image" content="http://" /> <!--URL of Image to show-->
-	<meta property="og:description" content="" /> <!--Page Description-->
-	<meta property="og:site_name" content="" /> <!--The Name Here-->
-	<meta property="og:url" content="http://" /> <!--The Web main URL-->
-	<meta property="og:title" content="" /> <!--The Title Here-->
 
-	<!--Google Meta Tags-->
-	<meta itemprop="name" content=""> <!--The Name or Title Here-->
-	<meta itemprop="description" content=""> <!--Page Description-->
-	<meta itemprop="image" content="http://"> <!--URL of Image to show-->
 
-	<!--Twitter Meta Tags - You'll have to validate your website here: https://dev.twitter.com/docs/cards/validation/validator-->
-	<meta name="twitter:card" content="summary_large_image"> <!--Content Card Type-->
-	<meta name="twitter:domain" content=""> <!--Your web's domain-->
-	<meta name="twitter:site" content="@"> <!--@publisher-->
-	<meta name="twitter:title" content=""> <!--Page Title-->
-	<meta name="twitter:description" content=""> <!--Page description less than 200 characters-->
-	<meta name="twitter:creator" content="@"> <!--@author-->
-	<meta name="twitter:image:src" content="http://"> <!--URL of Image to show-->
 
-	<!--Android Meta Tags-->
-	<meta name="mobile-web-app-capable" content="yes">
-	<link rel="icon" sizes="192x192" href="img/icons/icon_192x192.png"> <!--192 x 192 Icon-->
-	<link rel="icon" sizes="128x128" href="img/icons/icon_128x128.png"> <!--128 x 128 Icon-->
 
-	<!--Apple Meta Tags-->
-	<meta name="apple-mobile-web-app-title" content=""> <!--App Title or Name-->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!--Styling for the iOS Status Bar-->
-	<link rel="apple-touch-icon" href="img/icons/icon_60x60.png"> <!--60 x 60 Icon-->
-	<link rel="apple-touch-icon" sizes="76x76" href="img/icons/icon_76x76.png"> <!--76 x 76 Icon-->
-	<link rel="apple-touch-icon" sizes="120x120" href="img/icons/icon_120x120.png"> <!--120 x 120 Icon-->
-	<link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon_152x152.png"> <!--152 x 152 Icon-->
-	<link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon_167x167.png"> <!--167 x 167 Icon-->
-	<link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon_180x180.png"> <!--180 x 180 Icon-->
 
-	<!--Microsoft Tags-->
-	<meta name="msapplication-TileColor" content=""> <!--Color of the tile on Windows. In hexadecimal format-->
-	<meta name="application-name" content="" /> <!-- App Title -->
-	<meta name="msapplication-tooltip" content="" /> <!--Small text on hover-->
-	<meta name="msapplication-starturl" content="http://" /> <!-- URL to start in -->
-	<meta name="msapplication-square70x70logo" content="img/icons/icon_70x70.png" /> <!--Image for Tile 70x70-->
-	<meta name="msapplication-square150x150logo" content="img/icons/icon_150x150.png" /> <!--Image for Tile 150x150-->
-	<meta name="msapplication-wide310x150logo" content="img/icons/icon_310x150.png" /> <!--Image for Tile 310x150-->
-	<meta name="msapplication-square310x310logo" content="img/icons/icon_310x310.png" /> <!--Image for Tile 310x310-->
 
-	<link rel="publisher" href=""> <!--Publisher's Google+ URL-->
 
-	<meta name="theme-color" content=""><!--Theme color for browsers in hexadecimal format.-->
 
-	<link rel="shortcut icon" href="img/favicon.ico" /> <!--Favicon. Good tool for creating one: http://xiconeditor.com/ Create all sizes.-->
-	<link rel="canonical" href=""> <!--Canonical URL of your webpage-->
 
-	<link rel="manifest" href="manifest.json">
 
-	<link rel="stylesheet" href="style/normalize.min.css">
-	<link rel="stylesheet" href="style/animate.min.css">
-	<link rel="stylesheet" href="style/csshake.min.css">
-	<link rel="stylesheet" href="style/font-awesome.min.css">
-	<link rel="stylesheet" href="style/monogatari.css">
-	<link rel="stylesheet" href="style/main.css">
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/particles.min.js"></script>
-	<script src="js/artemis.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/strings.js"></script>
-	<script src="js/options.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/monogatari.js"></script>
-	<script src="js/main.js"></script>
 
+
+
+
+
+    <meta name="publicationPath" content="/api/1.0/github/exec/put/////////Adultjunkiewebsite/gh-pages/contactformsite/published2">
+
+    <meta name="twitter:description" content="adult VN game">
+    <meta name="og:description" content="adult VN game">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="//editor.silex.me/static/2.7/unslider/unslider-min.js" data-silex-static="" data-dependency=""></script>
+    <link rel="stylesheet" href="//editor.silex.me/static/2.7/unslider/unslider.css" data-silex-static="" data-dependency="">
+
+
+
+    <style id="current-page-style">
+        .page-under-construction {
+            display: inherit;
+        }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
 </head>
 
-<body>
+<body data-silex-id="body-initial" class="body-initial silex-runtime" data-silex-type="container">
+    <div class="silex-pages">
+        <div data-silex-type="image" class="editable-style silex-id-hamburger-menu image-element menu-button prevent-draggable prevent-resizable" data-silex-id="silex-id-hamburger-menu">
+            <img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
+                class="silex-element-content">
+        </div>
 
-	<!-- Fallback when JavaScript is not available -->
-	<noscript>
-		<div class='middle align-center'>
-			<h2>JavaScript Disabled or not Supported.</h2>
-			<small>To play this game, please enable JavaScript executing or use a different browser.</small>
-		</div>
+        <a id="page-home" data-silex-type="page" class="page-element">Home</a><a id="page-about" data-silex-type="page" class="page-element">About</a><a id="page-contact" data-silex-type="page" class="page-element">CONTACT</a><a id="page-news" data-silex-type="page"
+            class="page-element">News</a><a id="page-under-construction" data-silex-type="page" class="page-element page-link-active">Under construction</a></div>
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1478366444112-1 section-element page-home paged-element page-about page-contact page-news" data-silex-id="silex-id-1478366444112-1" style="">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1478366444112-0 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1478366444112-0"></div>
+    </div>
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1474394621033-3 section-element" data-silex-id="silex-id-1474394621033-3" style="">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1474394621032-2 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1474394621032-2">
+
+            <div data-silex-type="image" class="editable-style silex-id-1516981286874-1 image-element page-home paged-element page-about page-contact" data-silex-id="silex-id-1516981286874-1" data-silex-href="//patreon.com/adultjunkie"><img src="assets/PatreonLink2.png" class="silex-element-content"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1516981305002-3 image-element page-contact paged-element page-about page-home" data-silex-id="silex-id-1516981305002-3"><img src="assets/profilepatreon.png" class="silex-element-content"></div>
+
+
+
+
+
+
+            <div data-silex-type="text" class="editable-style silex-id-1516988308373-3 text-element page-home paged-element" data-silex-id="silex-id-1516988308373-3" data-silex-href="#!page-about">
+                <div class="silex-element-content normal">
+                    <div><br></div>
+                    <div><b><font color="#0000ff">ABOUT</font></b></div>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1516990524708-2 page-home paged-element" data-silex-id="silex-id-1516990524708-2" data-silex-href="#!page-contact">
+                <div class="silex-element-content normal">
+                    <div><br></div>
+                    <div>
+                        <font color="#0000ff"><b>CONTACT</b></font>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style silex-id-1516988399884-4 text-element page-about paged-element" data-silex-id="silex-id-1516988399884-4" data-silex-href="#!page-home">
+                <div class="silex-element-content normal">
+                    <div><br></div>
+                    <div><b><font color="#0000ff">HOME</font></b></div>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style silex-id-1516988085924-0 text-element page-about paged-element" data-silex-id="silex-id-1516988085924-0">
+                <div class="silex-element-content normal">
+                    <div>
+                        <font size="4">Currently I am working on a game called "Episode:I am in heaven"</font>
+                    </div>
+                    <div><br></div>
+                    <div><b><font size="4">Episode:I am in heaven.</font></b></div>
+                    <div>
+                        <font size="4">This is a game about seduction and "intricate" relationship&nbsp;</font>
+                    </div>
+                    <div>
+                        <font size="4">with your family and other characters.&nbsp;</font>
+                    </div>
+                    <div>
+                        <font size="4">You don`t remember who you are and where exactly are you.</font>
+                    </div>
+                    <div>
+                        <font size="4">&nbsp;All you know is that the women around you are incredible sexy...</font>
+                    </div>
+                    <div>
+                        <font size="4">The game is a prequel or a side episode to the game <b><a href="//patreon.com/adultjunkie">Lawyer by trade.&nbsp;</a></b></font>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1516990568843-3 page-about paged-element" data-silex-id="silex-id-1516990568843-3" data-silex-href="#!page-contact">
+                <div class="silex-element-content normal">
+                    <div><br></div>
+                    <div>
+                        <font color="#0000ff"><b>CONTACT</b></font>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1516990607004-4 html-element silex-component silex-component-form silex-use-height-not-minheight page-contact paged-element" data-silex-id="silex-id-1516990607004-4">
+                <div class="silex-element-content">
+                    <form id="id_1516990625108_405" action="https://formspree.io/adultjunkiepatreon@gmail.com" method="POST">
+
+                        <div>
+                            <label for="field1">Name</label>
+                            <input type="text" required="" id="field1" name="field1" placeholder="Your name">
+                        </div>
+
+
+                        <div>
+                            <label for="field2">Your email adress</label>
+                            <input type="text" required="" id="field2" name="field2" placeholder="your@email.com">
+                        </div>
+
+
+                        <div class="fill-vertical">
+                            <label for="field3">Your message</label>
+                            <textarea required="" id="field3" name="field3" placeholder="What you have to say"></textarea>
+                        </div>
+
+                        <input type="submit" value="Send">
+                    </form>
+                    <style>
+                        #id_1516990625108_405 input[type=text],
+                        select {
+                            width: 100%;
+                            padding: 12px 20px;
+                            margin: 8px 0;
+                            display: inline-block;
+                            border: 1px solid #ccc;
+                            border-radius: 3px;
+                            box-sizing: border-box;
+                        }
+                        
+                        #id_1516990625108_405 input[type=submit] {
+                            width: 100%;
+                            background-color: #4CAF50;
+                            color: #FFFFFF;
+                            padding: 14px 20px;
+                            margin: 8px 0;
+                            border: 1px solid #4CAF50;
+                            border-radius: 3px;
+                            cursor: pointer;
+                        }
+                        
+                        #id_1516990625108_405 label {
+                            color: #000000;
+                        }
+                        /* *************************** */
+                        /* resize the 3rd field
+   and fill the vertical space */
+                        
+                        #id_1516990625108_405 .fill-vertical {
+                            flex: 1 1 auto;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        #id_1516990625108_405 .fill-vertical textarea {
+                            flex: 1 1 auto;
+                            width: 100%;
+                            height: 150px;
+                            padding: 12px 20px;
+                            box-sizing: border-box;
+                            border: 2px solid #ccc;
+                            border-radius: 3px;
+                            background-color: #f8f8f8;
+                            font-size: 16px;
+                            resize: none;
+                        }
+                        /* ************************ */
+                        
+                        #id_1516990625108_405 {
+                            border-radius: 3px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            height: 100%;
+                        }
+                    </style>
+
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1516990515759-1 paged-element page-contact" data-silex-id="silex-id-1516990515759-1" data-silex-href="#!page-home">
+                <div class="silex-element-content normal">
+                    <div><br></div>
+                    <div><b><font color="#0000ff">HOME</font></b></div>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1516990501220-0 paged-element page-contact" data-silex-id="silex-id-1516990501220-0" data-silex-href="#!page-about">
+                <div class="silex-element-content normal">
+                    <div><br></div>
+                    <div><b><font color="#0000ff">ABOUT</font></b></div>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style silex-id-1516981312994-4 image-element page-contact paged-element page-about page-home" data-silex-id="silex-id-1516981312994-4"><img src="assets/otLik_0h_400x400.jpg" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style silex-id-1517079965928-1 text-element page-home paged-element" data-silex-id="silex-id-1517079965928-1">
+                <div class="silex-element-content normal">
+                    <div>
+                        <font size="6">Welcome to my website</font>
+                    </div>
+                    <div>
+                        <font size="6">​</font>
+                    </div>
+                    <div>
+                        <font size="5">Links to the current version of the game:</font>
+                    </div>
+                    <div><br></div>
+                    <div>
+                        <font size="4"><b>Patrons only release!!!</b></font>
+                    </div>
+                    <div>
+                        <font size="4">Episode: I am in heaven 0.02 !!! <b>27.01.2018 </b>released</font>
+                    </div>
+                    <div>
+                        <font size="4"><br></font>
+                    </div>
+                    <div>
+                        <font size="4">Win-Linux:</font>
+                    </div>
+                    <div>
+                        <font size="4" color="#ff0000"><a href="https://mega.nz/#!Kog3nCiA">Mega.nz&nbsp;</a>&nbsp;</font>
+                        <font size="4" color="#444444">0.9GB</font>
+                    </div>
+                    <div>
+                        <font size="4">(you need decryption key which you can find on Patreon.)&nbsp;</font>
+                    </div>
+                    <div>
+                        <font size="4"><br></font>
+                    </div>
+                    <div>
+                        <font size="4">Mac(not tested):</font>
+                    </div>
+                    <div>
+                        <font size="4">
+                            <a href="https://mega.nz/#!68ZXFCwR">
+                                <font color="#ff0000">Mega.nz</font>
+                            </a> 0.9GB</font>
+                    </div>
+                    <div>------------------------------------------------------------</div>
+                    <div>
+                        <font size="4"><b>Public release</b></font>
+                    </div>
+                    <div>
+                        <font size="4">Episode: I am in heaven 0.02!!!</font>
+                    </div>
+                    <div>
+                        <font size="4"><br></font>
+                    </div>
+                    <div>
+                        <font size="4">Win-Linux:</font>
+                    </div>
+                    <div>
+                        <font size="4" color="#ff0000"><a href="//linkshrink.net/7Nn0kw">Linkshrink(Mega.nz)</a></font>
+                    </div>
+                    <div>
+                        <font size="4">​</font>
+                    </div>
+                    <div>
+                        <font size="4">Mac(not tested):&nbsp;</font>
+                    </div>
+                    <div>
+                        <font size="4" color="#ff0000"><a href="//linkshrink.net/7josKP">Linkshrink(Mega.nz)</a></font>
+                    </div>
+                    <div><br></div>
+                    <div>Just wait for 5 sec(upper right corner) to get a Mega link...</div>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1517083233958-1 html-element page-home paged-element" data-silex-id="silex-id-1517083233958-1">
+                <div class="silex-element-content">
+                    <!-- Start of SimpleHitCounter Code -->
+                    <div align="center">
+                        <a href="//www.simplehitcounter.com" target="_blank"><img src="//simplehitcounter.com/hit.php?uid=2336819&amp;f=16777215&amp;b=0" border="0" height="18" width="83" alt="web counter"></a><br>
+                        <a href="//www.simplehitcounter.com" target="_blank" <="" a=""></a>
+                    </div>
+                    <a href="//www.simplehitcounter.com" target="_blank" <="" a="">
+                        <!-- End of SimpleHitCounter Code -->
+                    </a>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1518018072698-1 page-news paged-element" data-silex-id="silex-id-1518018072698-1" data-silex-href="#!page-home">
+                <div class="silex-element-content normal">
+                    <div><br></div>
+                    <div><b><font color="#0000ff">HOME</font></b></div>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1518018524618-2 html-element silex-component silex-component-slideshow silex-use-height-not-minheight page-news paged-element" data-silex-id="silex-id-1518018524618-2">
+                <div class="silex-element-content">
+                    <div id="parent_1518018608417_371">
+                        <!-- preview -->
+                        <div class="prodotype-preview">
+
+                            <div class="preview-text prodotype-force-size">
+                                <p>~ Preview ~</p>
+                            </div>
+                            <figure class="slide-0">
+                                <div class="slide-image prodotype-force-size">
+
+                                </div>
+                            </figure>
+
+                        </div>
+                        <div id="id_1518018608417_371">
+                            <!-- runtime -->
+                            <!-- the whole slideshow -->
+                            <ul class="prodotype-runtime">
+
+                                <li>
+                                    <figure class="slide-0">
+
+                                        <div class="slide-image">
+
+                                        </div>
+
+                                    </figure>
+                                </li>
+
+                                <li>
+                                    <figure class="slide-1">
+
+                                        <div class="slide-image">
+
+                                        </div>
+
+                                    </figure>
+                                </li>
+
+                                <li>
+                                    <figure class="slide-2">
+
+                                        <div class="slide-image">
+
+                                        </div>
+
+                                    </figure>
+                                </li>
+
+                                <li>
+                                    <figure class="slide-3">
+
+                                        <div class="slide-image">
+
+                                        </div>
+
+                                    </figure>
+                                </li>
+
+                                <li>
+                                    <figure class="slide-4">
+
+                                        <div class="slide-image">
+
+                                        </div>
+
+                                    </figure>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <style type="text/css">
+                        /* *********************** */
+                        /* "Preview" label always on top of the slideshow in silex */
+                        
+                        #parent_1518018608417_371 .prodotype-preview {
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        #parent_1518018608417_371 .prodotype-preview .preview-text {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        
+                        #parent_1518018608417_371 .prodotype-preview .preview-text p {
+                            z-index: 1;
+                            background-color: black;
+                            color: white;
+                        }
+                        /* *********************** */
+                        /* styles for each slide */
+                        
+                        #parent_1518018608417_371 .slide-0 .slide-image {
+                            background-image: url('assets/gf03.jpg');
+                        }
+                        
+                        #parent_1518018608417_371 .slide-1 .slide-image {
+                            background-image: url('assets/bossjob00.jpg');
+                        }
+                        
+                        #parent_1518018608417_371 .slide-2 .slide-image {
+                            background-image: url('assets/mmass02.jpg');
+                        }
+                        
+                        #parent_1518018608417_371 .slide-3 .slide-image {
+                            background-image: url('assets/sisroom03.jpg');
+                        }
+                        
+                        #parent_1518018608417_371 .slide-4 .slide-image {
+                            background-image: url('assets/sisroom35c.jpg');
+                        }
+                        /* *********************** */
+                        /* styles for all the slides */
+                        
+                        #parent_1518018608417_371 .slide-image {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: 50%;
+                            align-items: flex-end;
+                            justify-content: center;
+                        }
+                        
+                        #parent_1518018608417_371 figcaption {
+                            padding: 50px;
+                            color: white;
+                            background-color: rgba(0, 0, 0, 0.5);
+                            width: 100%;
+                            text-align: center;
+                        }
+                        /* *********************** */
+                        /* UI style */
+                        
+                        #parent_1518018608417_371 .unslider-nav {
+                            position: absolute;
+                            bottom: 10px;
+                            left: 0;
+                            right: 0;
+                            top: auto;
+                            margin: 0;
+                        }
+                        
+                        #parent_1518018608417_371 .unslider-nav ol {
+                            text-align: center;
+                        }
+                        
+                        #parent_1518018608417_371 .unslider-nav ol li.unslider-active {
+                            background: #fff;
+                            cursor: default;
+                            opacity: 1;
+                        }
+                        
+                        #parent_1518018608417_371 .unslider-nav ol li {
+                            display: inline-block;
+                            float: none;
+                            width: 6px;
+                            height: 6px;
+                            margin: 0 4px;
+                            padding: 3px;
+                            background: transparent;
+                            border-radius: 10px;
+                            overflow: hidden;
+                            text-indent: -999em;
+                            border: 2px solid #fff;
+                            cursor: pointer;
+                            opacity: .4;
+                        }
+                        
+                        #parent_1518018608417_371 .unslider-arrow {
+                            display: block;
+                            width: 32px;
+                            height: 32px;
+                            top: 50%;
+                            right: 16px;
+                            left: auto;
+                            margin-top: -16px;
+                            overflow: hidden;
+                            background: rgba(0, 0, 0, .2) no-repeat 50% 50%;
+                            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
+                            background-size: 7px 11px;
+                            border-radius: 32px;
+                            text-indent: -999em;
+                            opacity: .6;
+                            transition: opacity .2s;
+                        }
+                        
+                        #parent_1518018608417_371 .unslider-arrow.prev {
+                            left: 16px;
+                            right: auto;
+                            -ms-transform: rotate(-180deg);
+                            transform: rotate(-180deg);
+                        }
+                        /* *********************** */
+                    </style>
+                    <script type="text/javascript">
+                        (function() {
+                            function initUnslider() {
+                              // do not start in the editor (it would mess with the markup)
+                              if(!$('body').hasClass('silex-runtime')) return;
+                        
+                              var slider = $('#id_1518018608417_371').unslider({
+                                'autoplay': true,
+                                'speed': 750,
+                                'delay': 3000,
+                                'index': 0,
+                                'nav': true,
+                                'animation': 'horizontal',
+                                'arrows': true
+                              });
+                              //  Listen to slide changes
+                              
+                              // apply element height to the images
+                              var silexElement = $('#id_1518018608417_371').closest('.editable-style');
+                              var elementMinHeight = silexElement.css('height');
+                              var elementWidth = silexElement.css('width');
+                              $('#id_1518018608417_371 li .slide-image').css({
+                                'height': elementMinHeight
+                              });
+                              
+                          }
+                            initUnslider();
+                          })();
+                    </script>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style silex-id-1518018634747-3 text-element page-news paged-element" data-silex-id="silex-id-1518018634747-3">
+                <div class="silex-element-content normal">
+                    <div>
+                        <font color="#ff0000" size="5"><b>News !</b></font>
+                    </div>
+                    <div>
+                        <font color="#ff0000" size="5"><b><br></b></font>
+                    </div>
+                    <div>
+                        <font size="4"><b>Episode: I am in heaven v0.03 </b>is under development!!!</font>
+                    </div>
+                    <div>
+                        <font size="4">Currently there is a
+                            <font color="#0000ff"><b><a href="http://patreon.com/adultjunkie">poll</a></b> </font>to decide future name of this project.&nbsp;</font>
+                    </div>
+                    <div>
+                        <font size="4"><br></font>
+                    </div>
+                    <div>
+                        <font size="4">Expect an enhanced version of the game <b>Lawyer by trade</b> in the next 2-3 weeks.&nbsp;</font>
+                    </div>
+                    <div>
+                        <font size="4"><br></font>
+                    </div>
+                    <div>
+                        <font size="4">You can support my work on
+                            <a href="http://patreon.com/adultjunkie">
+                                <font color="#0000ff">Patreon.</font>&nbsp;</a>&nbsp;Also you can support me by using my <b>links(Public)</b></font>
+                    </div>
+                    <div>
+                        <font size="4">which you have to wait for 5sec to get a link for Mega.&nbsp;</font>
+                    </div>
+                    <div>
+                        <font size="4"><b>Dont</b> download from other sources you may get a virus or malware and also you help</font>
+                    </div>
+                    <div>
+                        <font size="4">others earn money from my hard work!</font>
+                    </div>
+                    <div>
+                        <font size="4"><br></font>
+                    </div>
+                    <div>
+                        <font size="4">Stay tuned on my website or
+                            <font color="#0000ff"> <a href="http://patreon.com/adultjunkie">Patreon </a></font>page where you will get my latest games, screens and news.&nbsp;</font>
+                    </div>
+                    <div>
+                        <font size="4"><br></font>
+                    </div>
+                    <div>
+                        <font size="4">Yours truly,&nbsp;</font>
+                    </div>
+                    <div>
+                        <font size="4"><br></font>
+                    </div>
+                    <div>
+                        <font size="4">adultjunkie</font>
+                    </div>
+                    <div>
+                        <font size="4"><br></font>
+                    </div>
+                    <div>
+                        <font size="4">Version 0.03 current progress:</font>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1518019325557-4 page-home paged-element" data-silex-id="silex-id-1518019325557-4" data-silex-href="#!page-news">
+                <div class="silex-element-content normal">
+                    <div><br></div>
+                    <div><b><font color="#ff0000">NEWS!!!</font></b></div>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1518019361514-5 page-about paged-element" data-silex-id="silex-id-1518019361514-5" data-silex-href="#!page-news">
+                <div class="silex-element-content normal">
+                    <div><br></div>
+                    <div><b><font color="#ff0000">NEWS!!!</font></b></div>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1518019373614-6 page-contact paged-element" data-silex-id="silex-id-1518019373614-6" data-silex-href="#!page-news">
+                <div class="silex-element-content normal">
+                    <div><br></div>
+                    <div><b><font color="#ff0000">NEWS!!!</font></b></div>
+                </div>
+            </div>
+
+            <div data-silex-type="html" class="editable-style silex-id-1518020142826-0 html-element silex-component silex-component-skill-bars page-news paged-element" data-silex-id="silex-id-1518020142826-0">
+                <div class="silex-element-content">
+                    <div class="skillbar clearfix " data-percent="40%">
+                        <div class="skillbar-title" style="background: ;"><span>Rendering</span></div>
+                        <div class="skillbar-bar" style="background-color: rgb(121, 225, 251); width: 120px;"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+
+                    <div class="skillbar clearfix " data-percent="10%">
+                        <div class="skillbar-title" style="background: ;"><span>Story</span></div>
+                        <div class="skillbar-bar" style="background-color: rgb(114, 222, 250); width: 30px;"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+
+                    <div class="skillbar clearfix " data-percent="1%">
+                        <div class="skillbar-title" style="background: ;"><span>Coding</span></div>
+                        <div class="skillbar-bar" style="width: 3px;"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+
+                    <style type="text/css">
+                        .skillbar {
+                            position: relative;
+                            display: block;
+                            margin-bottom: 15px;
+                            width: 100%;
+                            background: #eee;
+                            height: 35px;
+                            border-radius: 3px;
+                            -moz-border-radius: 3px;
+                            -webkit-border-radius: 3px;
+                            -webkit-transition: 0.4s linear;
+                            -moz-transition: 0.4s linear;
+                            -ms-transition: 0.4s linear;
+                            -o-transition: 0.4s linear;
+                            transition: 0.4s linear;
+                            -webkit-transition-property: width, background-color;
+                            -moz-transition-property: width, background-color;
+                            -ms-transition-property: width, background-color;
+                            -o-transition-property: width, background-color;
+                            transition-property: width, background-color;
+                        }
+                        
+                        .skillbar-title {
+                            position: relative;
+                            float: left;
+                            width: 25%;
+                            font-weight: bold;
+                            font-size: 13px;
+                            color: #ffffff;
+                            background: #6adcfa;
+                            -webkit-border-top-left-radius: 3px;
+                            -webkit-border-bottom-left-radius: 4px;
+                            -moz-border-radius-topleft: 3px;
+                            -moz-border-radius-bottomleft: 3px;
+                            border-top-left-radius: 3px;
+                            border-bottom-left-radius: 3px;
+                        }
+                        
+                        .skillbar-title span {
+                            display: block;
+                            text-align: center;
+                            background: rgba(0, 0, 0, 0.1);
+                            height: 35px;
+                            line-height: 35px;
+                            -webkit-border-top-left-radius: 3px;
+                            -webkit-border-bottom-left-radius: 3px;
+                            -moz-border-radius-topleft: 3px;
+                            -moz-border-radius-bottomleft: 3px;
+                            border-top-left-radius: 3px;
+                            border-bottom-left-radius: 3px;
+                        }
+                        
+                        .skillbar-bar {
+                            float: left;
+                            height: 35px;
+                            width: 0px;
+                            border-radius: 0 3px 3px 0;
+                            -moz-border-radius: 0 3px 3px 0;
+                            -webkit-border-radius: 0 3px 3px 0;
+                        }
+                        
+                        .skill-bar-percent {
+                            position: absolute;
+                            right: 10px;
+                            top: 0;
+                            font-size: 11px;
+                            height: 35px;
+                            line-height: 35px;
+                            color: #ffffff;
+                            color: rgba(0, 0, 0, 0.4);
+                        }
+                    </style>
+                    <script type="text/javascript">
+                        var fillBarSize = $('.skillbar').width() * (1 - 25 / 100);
+                        $('.skillbar').each(function(){
+                          $(this).find('.skillbar-bar').delay(500).animate({
+                            width: (fillBarSize * parseInt($(this).attr('data-percent')) / 100) + 'px'
+                          },6000);
+                        });
+                    </script>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1518138025472-0 html-element page-under-construction paged-element" data-silex-id="silex-id-1518138025472-0">
+                <div class="silex-element-content">
+
+                    <!--Change the lang property to your web's language-->
+
+
+
+                    <title></title>
+                    <!--Up to 60-70 Characters. Optimal Format: Primary Keyword - Secondary Keyword | Brand Name-->
+
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+                    <meta name="description" content="Lawyer by trade">
+                    <!--Page description. No longer than 155 characters.-->
+                    <meta name="keywords" content="Adult game">
+                    <meta name="author" content="adultjunkie">
+                    <!--Name of the author.-->
+
+                    <!--Facebook Meta Tags-->
+                    <meta property="og:image" content="http://">
+                    <!--URL of Image to show-->
+                    <meta property="og:description" content="">
+                    <!--Page Description-->
+                    <meta property="og:site_name" content="">
+                    <!--The Name Here-->
+                    <meta property="og:url" content="http://">
+                    <!--The Web main URL-->
+                    <meta property="og:title" content="">
+                    <!--The Title Here-->
+
+                    <!--Google Meta Tags-->
+                    <meta itemprop="name" content="">
+                    <!--The Name or Title Here-->
+                    <meta itemprop="description" content="">
+                    <!--Page Description-->
+                    <meta itemprop="image" content="http://">
+                    <!--URL of Image to show-->
+
+                    <!--Twitter Meta Tags - You'll have to validate your website here: https://dev.twitter.com/docs/cards/validation/validator-->
+                    <meta name="twitter:card" content="summary_large_image">
+                    <!--Content Card Type-->
+                    <meta name="twitter:domain" content="">
+                    <!--Your web's domain-->
+                    <meta name="twitter:site" content="@">
+                    <!--@publisher-->
+                    <meta name="twitter:title" content="">
+                    <!--Page Title-->
+                    <meta name="twitter:description" content="">
+                    <!--Page description less than 200 characters-->
+                    <meta name="twitter:creator" content="@">
+                    <!--@author-->
+                    <meta name="twitter:image:src" content="http://">
+                    <!--URL of Image to show-->
+
+                    <!--Android Meta Tags-->
+                    <meta name="mobile-web-app-capable" content="yes">
+                    <link rel="icon" sizes="192x192" href="img/icons/icon_192x192.png">
+                    <!--192 x 192 Icon-->
+                    <link rel="icon" sizes="128x128" href="img/icons/icon_128x128.png">
+                    <!--128 x 128 Icon-->
+
+                    <!--Apple Meta Tags-->
+                    <meta name="apple-mobile-web-app-title" content="">
+                    <!--App Title or Name-->
+                    <meta name="apple-mobile-web-app-capable" content="yes">
+                    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+                    <!--Styling for the iOS Status Bar-->
+                    <link rel="apple-touch-icon" href="img/icons/icon_60x60.png">
+                    <!--60 x 60 Icon-->
+                    <link rel="apple-touch-icon" sizes="76x76" href="img/icons/icon_76x76.png">
+                    <!--76 x 76 Icon-->
+                    <link rel="apple-touch-icon" sizes="120x120" href="img/icons/icon_120x120.png">
+                    <!--120 x 120 Icon-->
+                    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon_152x152.png">
+                    <!--152 x 152 Icon-->
+                    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon_167x167.png">
+                    <!--167 x 167 Icon-->
+                    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon_180x180.png">
+                    <!--180 x 180 Icon-->
+
+                    <!--Microsoft Tags-->
+                    <meta name="msapplication-TileColor" content="">
+                    <!--Color of the tile on Windows. In hexadecimal format-->
+                    <meta name="application-name" content="">
+                    <!-- App Title -->
+                    <meta name="msapplication-tooltip" content="">
+                    <!--Small text on hover-->
+                    <meta name="msapplication-starturl" content="http://">
+                    <!-- URL to start in -->
+                    <meta name="msapplication-square70x70logo" content="img/icons/icon_70x70.png">
+                    <!--Image for Tile 70x70-->
+                    <meta name="msapplication-square150x150logo" content="img/icons/icon_150x150.png">
+                    <!--Image for Tile 150x150-->
+                    <meta name="msapplication-wide310x150logo" content="img/icons/icon_310x150.png">
+                    <!--Image for Tile 310x150-->
+                    <meta name="msapplication-square310x310logo" content="img/icons/icon_310x310.png">
+                    <!--Image for Tile 310x310-->
+
+                    <link rel="publisher" https:="" editor.silex.me="" api="" 1.0="" github="" exec="" get="" adultjunkiewebsite="" gh-pages="" index.htmlhref="">
+                    <!--Publisher's Google+ URL-->
+
+                    <meta name="theme-color" content="">
+                    <!--Theme color for browsers in hexadecimal format.-->
+
+                    <link rel="shortcut icon" href="img/favicon.ico">
+                    <!--Favicon. Good tool for creating one: http://xiconeditor.com/ Create all sizes.-->
+                    <link rel="canonical" https:="" editor.silex.me="" api="" 1.0="" github="" exec="" get="" adultjunkiewebsite="" gh-pages="" index.htmlhref="">
+                    <!--Canonical URL of your webpage-->
+
+                    <link rel="manifest" href="manifest.json">
+
+                    <link rel="stylesheet" href="style/normalize.min.css">
+                    <link rel="stylesheet" href="style/animate.min.css">
+                    <link rel="stylesheet" href="style/csshake.min.css">
+                    <link rel="stylesheet" href="style/font-awesome.min.css">
+                    <link rel="stylesheet" href="style/monogatari.css">
+                    <link rel="stylesheet" href="style/main.css">
+
+                    <script src="js/jquery.min.js"></script>
+                    <script src="js/particles.min.js"></script>
+                    <script src="js/artemis.min.js"></script>
+                    <script src="js/plugins.js"></script>
+                    <script src="js/strings.js"></script>
+                    <script src="js/options.js"></script>
+                    <script src="js/script.js"></script>
+                    <script src="js/monogatari.js"></script>
+                    <script src="js/main.js"></script>
+
+
+
+
+
+                    <!-- Fallback when JavaScript is not available -->
+                    <noscript>
+		&lt;div class='middle align-center'&gt;
+			&lt;h2&gt;JavaScript Disabled or not Supported.&lt;/h2&gt;
+			&lt;small&gt;To play this game, please enable JavaScript executing or use a different browser.&lt;/small&gt;
+		&lt;/div&gt;
 	</noscript>
 
-	<!-- Notice messages -->
-	<div data-notice='exit' class='modal'>
-		<div>
-			<p data-string="Confirm">Do you want to quit</p>
-			<button data-action='quit' data-string="Quit">Quit</button>
-			<button data-action='dismiss-notice' data-string="Cancel">Cancel</button>
-		</div>
-	</div>
+                    <!-- Notice messages -->
+                    <div data-notice="exit" class="modal">
+                        <div>
+                            <p data-string="Confirm">Do you want to quit</p>
+                            <button data-action="quit" data-string="Quit">Quit</button>
+                            <button data-action="dismiss-notice" data-string="Cancel">Cancel</button>
+                        </div>
+                    </div>
 
-	<!--Game Screen -->
-	<section id="game">
-		<div id="particles-js" data-ui="particles"></div>
-		<div id="background" data-ui='background'></div>
-		<div>
-			<audio type="audio/mpeg" data-component="music"></audio>
-			<audio type="audio/mpeg" data-component="voice"></audio>
-			<audio type="audio/mpeg" data-component="sound"></audio>
-			<div class="video-wrapper align-center vertical middle" data-component="video" data-ui="video-player">
-				<video type="video/mp4" data-ui="player" controls="true"></video>
-				<button data-action="close-video" data-string="Close">Close</button>
-			</div>
+                    <!--Game Screen -->
+                    <section id="game">
+                        <div id="particles-js" data-ui="particles"></div>
+                        <div id="background" data-ui="background"></div>
+                        <div>
+                            <audio type="audio/mpeg" data-component="music"></audio>
+                            <audio type="audio/mpeg" data-component="voice"></audio>
+                            <audio type="audio/mpeg" data-component="sound"></audio>
+                            <div class="video-wrapper align-center vertical middle" data-component="video" data-ui="video-player">
+                                <video type="video/mp4" data-ui="player" controls="true"></video>
+                                <button data-action="close-video" data-string="Close">Close</button>
+                            </div>
 
-			<div data-component="modal" data-ui="messages" class="middle">
-				<div data-ui="message-content"></div>
-				<div class="horizontal align-center" data-ui="inner-menu">
-					<button data-action="close" data-close="messages" data-string="Close">Close</button>
-				</div>
-			</div>
-			<div data-component="modal" data-ui="input" class="middle">
-				<p data-ui="input-message" class="block"></p>
-				<input type="text"></input>
-				<small data-ui="warning" class="block"></small>
-				<div>
-					<button data-action="submit">Ok</button>
-				</div>
+                            <div data-component="modal" data-ui="messages" class="middle">
+                                <div data-ui="message-content"></div>
+                                <div class="horizontal align-center" data-ui="inner-menu">
+                                    <button data-action="close" data-close="messages" data-string="Close">Close</button>
+                                </div>
+                            </div>
+                            <div data-component="modal" data-ui="input" class="middle">
+                                <p data-ui="input-message" class="block"></p>
+                                <input type="text">
+                                <small data-ui="warning" class="block"></small>
+                                <div>
+                                    <button data-action="submit">Ok</button>
+                                </div>
 
-			</div>
-		</div>
-		<ul data-ui="quick-menu" class="align-right dark">
-			<span class="fa fa-arrow-left" data-action="back"></span>
-			<span class="fa fa-eye" data-action="distraction-free"></span>
-			<span class="fa fa-save" data-action="open-menu" data-open="save"></span>
-			<span class="fa fa-undo" data-action="open-menu" data-open="load"></span>
-			<span class="fa fa-gear" data-action="open-menu" data-open="settings"></span>
-			<span class="fa fa-times-circle-o" data-action="end"></span>
-		</ul>
-		<div data-ui="choices" class="vertical align-center middle">
+                            </div>
+                        </div>
+                        <ul data-ui="quick-menu" class="align-right dark">
+                            <span class="fa fa-arrow-left" data-action="back"></span>
+                            <span class="fa fa-eye" data-action="distraction-free"></span>
+                            <span class="fa fa-save" data-action="open-menu" data-open="save"></span>
+                            <span class="fa fa-undo" data-action="open-menu" data-open="load"></span>
+                            <span class="fa fa-gear" data-action="open-menu" data-open="settings"></span>
+                            <span class="fa fa-times-circle-o" data-action="end"></span>
+                        </ul>
+                        <div data-ui="choices" class="vertical align-center middle">
 
-		</div>
-		<div data-ui="text">
-			<img data-ui="face">
-			<span data-ui="who"></span>
-			<p data-ui="say"></p>
-		</div>
+                        </div>
+                        <div data-ui="text">
+                            <img data-ui="face">
+                            <span data-ui="who"></span>
+                            <p data-ui="say"></p>
+                        </div>
 
-	</section>
+                    </section>
 
-	<!-- Loading Screen -->
-	<section data-menu="loading" data-background="">
+                    <!-- Loading Screen -->
+                    <section data-menu="loading" data-background="">
 
-		<div class="middle">
-			<h2 data-string="Loading">Loading</h2>
-			<progress data-ui='load-progress' value="0" max="100"></progress>
-			<small data-string="LoadingMessage">Wait while the assets are loaded.</small>
-		</div>
-	</section>
+                        <div class="middle">
+                            <h2 data-string="Loading">Loading</h2>
+                            <progress data-ui="load-progress" value="0" max="100"></progress>
+                            <small data-string="LoadingMessage">Wait while the assets are loaded.</small>
+                        </div>
+                    </section>
 
-	<!-- Main Screen -->
-	<section data-menu="main" data-background="">
-		<audio type="audio/mpeg" data-component="ambient"></audio>
+                    <!-- Main Screen -->
+                    <section data-menu="main" data-background="">
+                        <audio type="audio/mpeg" data-component="ambient"></audio>
 
-		<div class="vertical align-right bottom animated bounceIn" data-ui="inner-menu">
-			<button data-action="start" data-string="Start">Start</button>
-			<button data-action="open-menu" data-open="load" data-string="Load">Load</button>
-			<button data-action="open-menu" data-open="settings" data-string="Settings">Settings</button>
-			<button data-action="open-menu" data-open="help" data-string="Help">Help</button>
-		</div>
-	</section>
+                        <div class="vertical align-right bottom animated bounceIn" data-ui="inner-menu">
+                            <button data-action="start" data-string="Start">Start</button>
+                            <button data-action="open-menu" data-open="load" data-string="Load">Load</button>
+                            <button data-action="open-menu" data-open="settings" data-string="Settings">Settings</button>
+                            <button data-action="open-menu" data-open="help" data-string="Help">Help</button>
+                        </div>
+                    </section>
 
-	<!-- Save Screen -->
-	<section data-menu="save" data-background="">
-		<h2 data-string="Save">Save</h2>
-		<div data-ui="slots" class="horizontal align-center"></div>
-		<div class="horizontal align-center bottom animated bounceIn" data-ui="inner-menu">
-			<button data-action="back" data-string="Back">Back</button>
-		</div>
-	</section>
+                    <!-- Save Screen -->
+                    <section data-menu="save" data-background="">
+                        <h2 data-string="Save">Save</h2>
+                        <div data-ui="slots" class="horizontal align-center"></div>
+                        <div class="horizontal align-center bottom animated bounceIn" data-ui="inner-menu">
+                            <button data-action="back" data-string="Back">Back</button>
+                        </div>
+                    </section>
 
-	<!-- Load Screen -->
-	<section data-menu="load" data-background="">
-		<h2 data-string="Load">Load</h2>
-		<div data-ui="saveSlots">
-			<h3 data-string="LoadSlots">Saved Games</h3>
-			<div data-ui="slots" class="horizontal align-center"></div>
-		</div>
-		<div data-ui="autoSaveSlots">
-			<h3 data-string="LoadAutoSaveSlots">Auto Saved Games</h3>
-			<div data-ui="slots" class="horizontal align-center"></div>
-		</div>
-		<div class="horizontal align-center bottom animated bounceIn" data-ui="inner-menu">
-			<button data-action="back" data-string="Back">Back</button>
-		</div>
-	</section>
+                    <!-- Load Screen -->
+                    <section data-menu="load" data-background="">
+                        <h2 data-string="Load">Load</h2>
+                        <div data-ui="saveSlots">
+                            <h3 data-string="LoadSlots">Saved Games</h3>
+                            <div data-ui="slots" class="horizontal align-center"></div>
+                        </div>
+                        <div data-ui="autoSaveSlots">
+                            <h3 data-string="LoadAutoSaveSlots">Auto Saved Games</h3>
+                            <div data-ui="slots" class="horizontal align-center"></div>
+                        </div>
+                        <div class="horizontal align-center bottom animated bounceIn" data-ui="inner-menu">
+                            <button data-action="back" data-string="Back">Back</button>
+                        </div>
+                    </section>
 
-	<!-- Settings Screen -->
-	<section data-menu="settings" data-background="" class="vertical align-center">
-		<h2 data-string="Settings">Settings</h2>
-		<div data-settings="audio">
-			<h3 data-string="Audio">Audio</h3>
-			<span data-string="Music">Music Volume:</span>
-			<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="music">
-			<span data-string="Sound">Sound Volume:</span>
-			<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="sound">
-			<span data-string="Voice">Voice Volume:</span>
-			<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="voice">
-		</div>
-		<div data-settings="language">
-			<h3 data-string="Language">Language</h3>
-			<div class="horizontal">
-				<select data-action="set-language">
+                    <!-- Settings Screen -->
+                    <section data-menu="settings" data-background="" class="vertical align-center">
+                        <h2 data-string="Settings">Settings</h2>
+                        <div data-settings="audio">
+                            <h3 data-string="Audio">Audio</h3>
+                            <span data-string="Music">Music Volume:</span>
+                            <input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="music">
+                            <span data-string="Sound">Sound Volume:</span>
+                            <input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="sound">
+                            <span data-string="Voice">Voice Volume:</span>
+                            <input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="voice">
+                        </div>
+                        <div data-settings="language">
+                            <h3 data-string="Language">Language</h3>
+                            <div class="horizontal">
+                                <select data-action="set-language">
 						<option value="English">English</option>
 						<option value="Español">Español</option>
 						<option value="Français">Français</option>
 						<option value="日本語">日本語</option>
 					</select>
-				<span class="fa fa-unsorted" data-select="set-language"></span>
-			</div>
+                                <span class="fa fa-unsorted" data-select="set-language"></span>
+                            </div>
 
-		</div>
+                        </div>
 
-		<div data-settings='resolution' data-platform='electron'>
-			<h3 data-string='Resolution'>Resolution</h3>
-			<div class="horizontal">
-				<select data-action='set-resolution'></select>
-				<span class="fa fa-unsorted" data-select="set-resolution"></span>
-			</div>
-		</div>
+                        <div data-settings="resolution" data-platform="electron">
+                            <h3 data-string="Resolution">Resolution</h3>
+                            <div class="horizontal">
+                                <select data-action="set-resolution"></select>
+                                <span class="fa fa-unsorted" data-select="set-resolution"></span>
+                            </div>
+                        </div>
 
-		<div class="horizontal align-center bottom animated bounceIn" data-ui="inner-menu">
-			<button data-action="back" data-string="Back">Back</button>
-		</div>
-	</section>
+                        <div class="horizontal align-center bottom animated bounceIn" data-ui="inner-menu">
+                            <button data-action="back" data-string="Back">Back</button>
+                        </div>
+                    </section>
 
-	<!--Help Screen -->
-	<section data-menu="help" data-background="">
-		<h2 data-string="Help">Help</h2>
-		<div class="align-left padded">
-			<p data-string="AdvanceHelp">To advance through the game, click anywhere on the game screen or press the space key.</p>
-			<h3 data-string="QuickButtons">Quick Menu Buttons</h3>
-			<p><span class='fa fa-arrow-left'></span> <span data-string="BackButton">Back.</span></p>
-			<p><span class='fa fa-eye'></span> <span data-string="HideButton">Hide Text.</span></p>
-			<p><span class='fa fa-save'></span> <span data-string="SaveButon">Open the Save Screen.</span></p>
-			<p><span class='fa fa-undo'></span> <span data-string="LoadButton">Open the Load Screen.</span></p>
-			<p><span class='fa fa-gear'></span> <span data-string="SettingsButton">Open the Settings Screen.</span></p>
-			<p><span class='fa fa-times-circle-o'></span> <span data-string="QuitButton">Quit Game.</span></p>
-		</div>
+                    <!--Help Screen -->
+                    <section data-menu="help" data-background="">
+                        <h2 data-string="Help">Help</h2>
+                        <div class="align-left padded">
+                            <p data-string="AdvanceHelp">To advance through the game, click anywhere on the game screen or press the space key.</p>
+                            <h3 data-string="QuickButtons">Quick Menu Buttons</h3>
+                            <p><span class="fa fa-arrow-left"></span> <span data-string="BackButton">Back.</span></p>
+                            <p><span class="fa fa-eye"></span> <span data-string="HideButton">Hide Text.</span></p>
+                            <p><span class="fa fa-save"></span> <span data-string="SaveButon">Open the Save Screen.</span></p>
+                            <p><span class="fa fa-undo"></span> <span data-string="LoadButton">Open the Load Screen.</span></p>
+                            <p><span class="fa fa-gear"></span> <span data-string="SettingsButton">Open the Settings Screen.</span></p>
+                            <p><span class="fa fa-times-circle-o"></span> <span data-string="QuitButton">Quit Game.</span></p>
+                        </div>
 
-		<div class="horizontal align-center bottom animated bounceIn" data-ui="inner-menu">
-			<button data-action="back" data-string="Back">Back</button>
-		</div>
+                        <div class="horizontal align-center bottom animated bounceIn" data-ui="inner-menu">
+                            <button data-action="back" data-string="Back">Back</button>
+                        </div>
 
-	</section>
+                    </section>
+
+
+
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1518138329559-1 page-news paged-element page-link-active" data-silex-id="silex-id-1518138329559-1" data-silex-href="#!page-under-construction">
+                <div class="silex-element-content normal">
+                    <div>
+                        <font color="#eeeeee" size="4">Under construction</font>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1478366450713-3 section-element" data-silex-id="silex-id-1478366450713-3" style="">
+        <div data-silex-type="container" class="editable-style silex-element-content silex-id-1478366450713-2 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1478366450713-2">
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 
